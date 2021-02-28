@@ -1,0 +1,34 @@
+#canvas{
+    width:400px;
+    height:200px;
+    border:1px solid #000;
+    /*
+    position :absolute;
+    top:10px;
+    */
+  }
+  #capture{ 
+    border:1px solid grey;
+    width:200px;
+    height:150px;
+  }
+  
+  /* MISE EN PAGE*/
+  
+  .bloc-mise-en-page{margin:10px;
+    flex:1 0 0px;   
+    min-width:500px;
+  }
+
+  .info{
+    list-style: url(./images/long-arrow-alt-right-solid.svg);
+  }
+  .info2{
+    list-style: "+ ";
+  }
+  .info3{
+    list-style: circle;
+  }
+ .form-control{
+   background-color: rgb(250, 226, 230);
+ }
